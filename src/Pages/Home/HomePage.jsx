@@ -1,7 +1,11 @@
-import Navbar from "./Navbar/Navbar";
+import Banner from "./Banner/Banner";
 
 const HomePage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Banner></Banner>
+    </div>
+  );
 };
 
 export default HomePage;

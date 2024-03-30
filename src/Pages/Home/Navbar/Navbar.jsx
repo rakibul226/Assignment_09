@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar font-bold flex justify-between border-b  border-gray-400">
+    <div className="navbar font-bold flex justify-between border-b  border-gray-400 px-7">
       <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
