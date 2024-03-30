@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="navbar font-bold flex justify-between border-b  border-gray-400 px-7">
+    <div className="navbar font-bold flex justify-between border-b  border-gray-400 px-7 sticky top-0 z-10">
       <div className="navbar-start ">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -49,7 +49,7 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-white hover:text-black hover:bg-green-600 hover:bg-transparent"
+                  ? "text-white hover:bg-orange-500 hover:bg-transparent"
                   : " hover:bg-gray-700 hover:text-gray-300"
               }
             >
@@ -63,7 +63,7 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-white hover:text-black hover:bg-green-600 hover:bg-transparent"
+                  ? "text-white hover:bg-orange-500 hover:bg-transparent"
                   : " hover:bg-gray-700 hover:text-gray-300"
               }
             >
@@ -77,7 +77,7 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-white hover:text-black hover:bg-green-600 hover:bg-transparent"
+                  ? "text-white hover:bg-orange-500 hover:bg-transparent"
                   : " hover:bg-gray-700 hover:text-gray-300"
               }
             >
@@ -95,7 +95,7 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-white hover:text-black hover:bg-green-600 hover:bg-transparent"
+                  ? "text-white hover:bg-orange-500 hover:bg-transparent"
                   : " hover:bg-gray-700 hover:text-gray-300"
               }
             >
@@ -109,7 +109,7 @@ const Navbar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-white hover:text-black hover:bg-green-600 hover:bg-transparent"
+                  ? "text-white hover:bg-orange-500  hover:bg-transparent"
                   : " hover:bg-gray-700 hover:text-gray-300"
               }
             >

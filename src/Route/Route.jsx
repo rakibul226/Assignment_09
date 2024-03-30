@@ -15,10 +15,13 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/",
         element: <HomePage></HomePage>,
+        loader: ()=>fetch("upcoming.json")
+        // loader: ()=>fetch("/upcoming.json")
       },
       {
         path: "/upcoming",
         element: <Upcoming></Upcoming>,
+        // loader: ()=>fetch("/upcoming.json")
       },
       {
         path: "/tournament",

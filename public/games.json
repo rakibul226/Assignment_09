@@ -1,0 +1,95 @@
+{
+    "games": [
+      {
+        "name": "PUBG: Battlegrounds",
+        "price": 29.99,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "PUBG Corporation",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "release_date": "2017-12-20",
+        "description": "PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game."
+      },
+      {
+        "name": "Fortnite",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "Epic Games",
+        "platforms": ["PC", "Xbox", "PlayStation", "Nintendo Switch"],
+        "release_date": "2017-07-25",
+        "description": "Fortnite is a popular online multiplayer battle royale game known for its building mechanics."
+      },
+      {
+        "name": "Apex Legends",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "Respawn Entertainment",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "release_date": "2019-02-04",
+        "description": "Apex Legends is a free-to-play battle royale game set in the Titanfall universe."
+      },
+      {
+        "name": "Call of Duty: Warzone",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "Infinity Ward",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "release_date": "2020-03-10",
+        "description": "Call of Duty: Warzone is a free-to-play battle royale game mode in the Call of Duty series."
+      },
+      {
+        "name": "H1Z1",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "Daybreak Game Company",
+        "platforms": ["PC", "PlayStation"],
+        "release_date": "2018-02-28",
+        "description": "H1Z1 is a free-to-play battle royale game developed by Daybreak Game Company."
+      },
+      {
+        "name": "Ring of Elysium",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "Tencent Games",
+        "platforms": ["PC"],
+        "release_date": "2018-09-19",
+        "description": "Ring of Elysium is a free-to-play battle royale game developed by Tencent Games."
+      },
+      {
+        "name": "Garena Free Fire",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "111 Dots Studio",
+        "platforms": ["Android", "iOS"],
+        "release_date": "2017-12-04",
+        "description": "Garena Free Fire is a mobile battle royale game developed by 111 Dots Studio."
+      },
+      {
+        "name": "Rules of Survival",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "NetEase Games",
+        "platforms": ["PC", "Android", "iOS"],
+        "release_date": "2017-11-14",
+        "description": "Rules of Survival is a free-to-play battle royale game developed by NetEase Games."
+      },
+      {
+        "name": "Knives Out",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/7zDHN2T/wp4806071-call-of-duty-mobile-4k-wallpapers.jpg",
+        "developer": "NetEase Games",
+        "platforms": ["PC", "Android", "iOS"],
+        "release_date": "2017-11-23",
+        "description": "Knives Out is a free-to-play battle royale game developed by NetEase Games."
+      }
+    ]
+  }
+  

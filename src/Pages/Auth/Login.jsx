@@ -1,5 +1,9 @@
+import Navbar from "../Home/Navbar/Navbar";
+
 const Login = () => {
-  return <div>login page</div>;
+  return <div>
+           <Navbar></Navbar>
+         </div>;
 };
 
 export default Login;
