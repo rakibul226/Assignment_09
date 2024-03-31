@@ -1,23 +1,28 @@
+import { ChevronLeft, ChevronRight } from "react-feather";
+
 
 
 const ViewUpComing = ({game}) => {
-    console.log(game);
-    const {name, image, release_date, developer,platforms} = game;
 
+    const {name, image, release_date, developer,platforms,description} = game;
     return (
-        <div className="text-start">
-            <div className="card gap glass">
-                <figure><img src={image} className="h-72 w-full" alt="car!" /></figure>
-                <div className="card-body h-52 justify-center flex flex-col">
-                    <h2 className="card-title">{name}</h2>
-                    <p>Platforms: {platforms}</p>
-                    <p>Release On : {release_date}</p>
-                    <div className="card-actions mt-auto justify-end">
-                        <button className="btn bg-gray-600 text-white">View details</button>
-                    </div>
-                </div>
+        <div  className="flex bg-gray-700 px-3 py-3 ">
+            <div className="flex-1">
+                <img src={image} className="h-80 w-10/12" alt={name} />
             </div>
-        </div>
+            <div className="flex-1 text-start  pl-5 items-center flex justify-center">
+                {/* <h1 className="text-3xl font-bold">Name: {name}</h1>
+                <h1>Release On: {release_date}</h1>
+                <h1>Developed By: {developer}</h1>
+                <h1>Platforms: {platforms}</h1> 
+                <p className="text-xl">{description}</p> */}
+
+                    <div className="text-center">
+                        <h1 className="text-6xl pb-9 text-gray-300 font-bold">{name}</h1>
+                        <p className="text-3xl font-light"> {release_date}  </p>
+                    </div>
+            </div>
+        </div> 
     );
 };
 

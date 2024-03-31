@@ -1,96 +1,106 @@
 {
-    "games": [
-      {
-        "name": "PUBG: Battlegrounds",
-        "price": 29.99,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "PUBG Corporation",
-        "platforms": ["PC", "Xbox", "PlayStation"],
-        "release_date": "2017-12-20",
-        "description": "PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game."
-      },
-      {
-        "name": "Fortnite",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "Epic Games",
-        "platforms": ["PC", "Xbox", "PlayStation", "Nintendo Switch"],
-        "release_date": "2017-07-25",
-        "description": "Fortnite is a popular online multiplayer battle royale game known for its building mechanics."
-      },
-      {
-        "name": "Apex Legends",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "Respawn Entertainment",
-        "platforms": ["PC", "Xbox", "PlayStation"],
-        "release_date": "2019-02-04",
-        "description": "Apex Legends is a free-to-play battle royale game set in the Titanfall universe."
-      },
-      {
-        "name": "Call of Duty: Warzone",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "Infinity Ward",
-        "platforms": ["PC", "Xbox", "PlayStation"],
-        "release_date": "2020-03-10",
-        "description": "Call of Duty: Warzone is a free-to-play battle royale game mode in the Call of Duty series."
-      },
-      {
-        "name": "H1Z1",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "Daybreak Game Company",
-        "platforms": ["PC", "PlayStation"],
-        "release_date": "2018-02-28",
-        "description": "H1Z1 is a free-to-play battle royale game developed by Daybreak Game Company."
-      },
-      {
-        "name": "Ring of Elysium",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "Tencent Games",
-        "platforms": ["PC"],
-        "release_date": "2018-09-19",
-        "description": "Ring of Elysium is a free-to-play battle royale game developed by Tencent Games."
-      },
-      {
-        "name": "Garena Free Fire",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "111 Dots Studio",
-        "platforms": ["Android", "iOS"],
-        "release_date": "2017-12-04",
-        "description": "Garena Free Fire is a mobile battle royale game developed by 111 Dots Studio."
-      },
-      {
-        "name": "Rules of Survival",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "NetEase Games",
-        "platforms": ["PC", "Android", "iOS"],
-        "release_date": "2017-11-14",
-        "description": "Rules of Survival is a free-to-play battle royale game developed by NetEase Games."
-      },
-      {
-        "name": "Knives Out",
-        "price": 0,
-        "category": "Shooter",
-        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "developer": "NetEase Games",
-        "platforms": ["PC", "Android", "iOS"],
-        "release_date": "2017-11-23",
-        "description": "Knives Out is a free-to-play battle royale game developed by NetEase Games."
-      }
-    ],
+  "games": [
+    {
+      "id": 1,
+      "name": "PUBG: Battlegrounds",
+      "price": 29.99,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "PUBG Corporation",
+      "platforms": ["PC", "Xbox", "PlayStation"],
+      "release_date": "2017-12-20",
+      "description": "PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game."
+    },
+    {
+      "id": 2,
+      "name": "Fortnite",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "Epic Games",
+      "platforms": ["PC", "Xbox", "PlayStation", "Nintendo Switch"],
+      "release_date": "2017-07-25",
+      "description": "Fortnite is a popular online multiplayer battle royale game known for its building mechanics."
+    },
+    {
+      "id": 3,
+      "name": "Apex Legends",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "Respawn Entertainment",
+      "platforms": ["PC", "Xbox", "PlayStation"],
+      "release_date": "2019-02-04",
+      "description": "Apex Legends is a free-to-play battle royale game set in the Titanfall universe."
+    },
+    {
+      "id": 4,
+      "name": "Call of Duty: Warzone",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "Infinity Ward",
+      "platforms": ["PC", "Xbox", "PlayStation"],
+      "release_date": "2020-03-10",
+      "description": "Call of Duty: Warzone is a free-to-play battle royale game mode in the Call of Duty series."
+    },
+    {
+      "id": 5,
+      "name": "H1Z1",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "Daybreak Game Company",
+      "platforms": ["PC", "PlayStation"],
+      "release_date": "2018-02-28",
+      "description": "H1Z1 is a free-to-play battle royale game developed by Daybreak Game Company."
+    },
+    {
+      "id": 6,
+      "name": "Ring of Elysium",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "Tencent Games",
+      "platforms": ["PC"],
+      "release_date": "2018-09-19",
+      "description": "Ring of Elysium is a free-to-play battle royale game developed by Tencent Games."
+    },
+    {
+      "id": 7,
+      "name": "Garena Free Fire",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "111 Dots Studio",
+      "platforms": ["Android", "iOS"],
+      "release_date": "2017-12-04",
+      "description": "Garena Free Fire is a mobile battle royale game developed by 111 Dots Studio."
+    },
+    {
+      "id": 8,
+      "name": "Rules of Survival",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "NetEase Games",
+      "platforms": ["PC", "Android", "iOS"],
+      "release_date": "2017-11-14",
+      "description": "Rules of Survival is a free-to-play battle royale game developed by NetEase Games."
+    },
+    {
+      "id": 9,
+      "name": "Knives Out",
+      "price": 0,
+      "category": "Shooter",
+      "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+      "developer": "NetEase Games",
+      "platforms": ["PC", "Android", "iOS"],
+      "release_date": "2017-11-23",
+      "description": "Knives Out is a free-to-play battle royale game developed by NetEase Games."
+    }
+  ],
+  
 
 
     "tournament": [
@@ -215,7 +225,7 @@
         "key": "d7c2b41a-eb2d-4fd0-b3ee-54f9c94bf034",
         "name": "Cyberpunk 2077",
         "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "release_date": "2024-05-01",
+        "release_date": "05-Jul-2024",
         "developer": "CD Projekt Red",
         "platforms": ["PC", "Xbox", "PlayStation"],
         "description": "Cyberpunk 2077 is an upcoming open-world action-adventure game set in the dystopian Night City, developed by CD Projekt Red."
@@ -224,7 +234,7 @@
         "key": "f8ac26e4-9570-4f9f-a682-890546789f0a",
         "name": "Elden Ring",
         "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "release_date": "2024-06-15",
+        "release_date": "15-Jun-2024",
         "developer": "FromSoftware",
         "platforms": ["PC", "Xbox", "PlayStation"],
         "description": "Elden Ring is an upcoming action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment."
@@ -233,7 +243,7 @@
         "key": "a51a14bd-aa50-4e7a-a6e4-50d23ac2282c",
         "name": "Starfield",
         "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "release_date": "2024-08-20",
+        "release_date": "20-Aug-2024",
         "developer": "Bethesda Gaming",
         "platforms": ["PC"," Xbox"],
         "description": "Starfield is an upcoming role-playing game developed by Bethesda Game Studios set in space."
@@ -242,7 +252,7 @@
         "key": "c4d70335-fdb8-43f6-a92d-4cc8a5b79125",
         "name": "God of War: Ragnarok",
         "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "release_date": "2024-10-10",
+        "release_date": "10-Oct-2024",
         "developer": "Santa Monica Studio",
         "platforms": ["PlayStation"],
         "description": "God of War: Ragnarok is an upcoming action-adventure game developed by Santa Monica Studio, a sequel to God of War (2018)."
@@ -251,12 +261,12 @@
         "key": "ebbb33fe-7693-42b2-8c3b-8ff4fdcd99bf",
         "name": "Breath of the Wild 2",
         "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
-        "release_date": "2024-11-25",
+        "release_date": "25-Nov-2024",
         "developer": "Nintendo EPD",
         "platforms": ["Nintendo Switch"],
         "description": "The Legend of Zelda: Breath of the Wild 2 is an upcoming action-adventure game developed and published by Nintendo for the Nintendo Switch."
       }
-     ]
+    ]
     
   }
   
