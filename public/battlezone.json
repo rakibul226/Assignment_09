@@ -1,0 +1,262 @@
+{
+    "games": [
+      {
+        "name": "PUBG: Battlegrounds",
+        "price": 29.99,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "PUBG Corporation",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "release_date": "2017-12-20",
+        "description": "PlayerUnknown's Battlegrounds (PUBG) is an online multiplayer battle royale game."
+      },
+      {
+        "name": "Fortnite",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "Epic Games",
+        "platforms": ["PC", "Xbox", "PlayStation", "Nintendo Switch"],
+        "release_date": "2017-07-25",
+        "description": "Fortnite is a popular online multiplayer battle royale game known for its building mechanics."
+      },
+      {
+        "name": "Apex Legends",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "Respawn Entertainment",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "release_date": "2019-02-04",
+        "description": "Apex Legends is a free-to-play battle royale game set in the Titanfall universe."
+      },
+      {
+        "name": "Call of Duty: Warzone",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "Infinity Ward",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "release_date": "2020-03-10",
+        "description": "Call of Duty: Warzone is a free-to-play battle royale game mode in the Call of Duty series."
+      },
+      {
+        "name": "H1Z1",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "Daybreak Game Company",
+        "platforms": ["PC", "PlayStation"],
+        "release_date": "2018-02-28",
+        "description": "H1Z1 is a free-to-play battle royale game developed by Daybreak Game Company."
+      },
+      {
+        "name": "Ring of Elysium",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "Tencent Games",
+        "platforms": ["PC"],
+        "release_date": "2018-09-19",
+        "description": "Ring of Elysium is a free-to-play battle royale game developed by Tencent Games."
+      },
+      {
+        "name": "Garena Free Fire",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "111 Dots Studio",
+        "platforms": ["Android", "iOS"],
+        "release_date": "2017-12-04",
+        "description": "Garena Free Fire is a mobile battle royale game developed by 111 Dots Studio."
+      },
+      {
+        "name": "Rules of Survival",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "NetEase Games",
+        "platforms": ["PC", "Android", "iOS"],
+        "release_date": "2017-11-14",
+        "description": "Rules of Survival is a free-to-play battle royale game developed by NetEase Games."
+      },
+      {
+        "name": "Knives Out",
+        "price": 0,
+        "category": "Shooter",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "developer": "NetEase Games",
+        "platforms": ["PC", "Android", "iOS"],
+        "release_date": "2017-11-23",
+        "description": "Knives Out is a free-to-play battle royale game developed by NetEase Games."
+      }
+    ],
+
+
+    "tournament": [
+      {
+        "id": "1",
+        "name": "Battle Royale Showdown",
+        "game": "Fortnite",
+        "start_date": "2024-04-15",
+        "end_date": "2024-04-17",
+        "registration_deadline": "2024-04-10",
+        "prize_pool": "$50,000",
+        "format": "Solo",
+        "platform": "PC, PlayStation, Xbox",
+        "rules": [
+          "Players must be at least 13 years old to participate.",
+          "Matches will be played in Battle Royale mode.",
+          "Points will be awarded based on placement and eliminations.",
+          "Cheating or exploiting glitches will result in disqualification."
+        ],
+        "image": "https://i.ibb.co/25Rkhwc/wp4802397-call-of-duty-modern-warfare-4k-wallpapers.jpg",
+        "contact_email": "info@example.com"
+      },
+      {
+        "id": "2",
+        "name": "Aggressive Battlefield",
+        "game": "PUBG",
+        "start_date": "2024-05-10",
+        "end_date": "2024-05-12",
+        "registration_deadline": "2024-05-05",
+        "prize_pool": "$40,000",
+        "format": "Squads (4 players)",
+        "platform": "PC, PlayStation, Xbox",
+        "rules": [
+          "Teams must consist of exactly four players.",
+          "Matches will be played in Erangel, Miramar, or Vikendi maps.",
+          "Points will be awarded based on squad survival time and kills.",
+          "Using third-party cheats or hacks will result in immediate disqualification."
+        ],
+        "image": "https://i.ibb.co/Mg78dvB/uwp4312569.jpg",
+        "contact_email": "info@example.com"
+      },
+      {
+        "id": "3",
+        "name": "Grand Prix Racing ",
+        "game": "F1 2024",
+        "start_date": "2024-06-20",
+        "end_date": "2024-06-22",
+        "registration_deadline": "2024-06-15",
+        "prize_pool": "$100,000",
+        "format": "Individual",
+        "platform": "PC, PlayStation, Xbox",
+        "rules": [
+          "Competitors must use the default F1 2024 cars provided by the game.",
+          "Points will be awarded based on race results.",
+          "Intentional collisions or reckless driving will result in penalties.",
+          "Drivers must adhere to track limits and regulations."
+        ],
+        "image": "https://i.ibb.co/TrpV0Gq/wp1965154-call-of-duty-advanced-warfare-wallpapers.jpg",
+        "contact_email": "info@example.com"
+      },
+      {
+        "id": "4",
+        "name": "Strategic Warfare League",
+        "game": "Counter-Strike",
+        "start_date": "2024-07-15",
+        "end_date": "2024-07-17",
+        "registration_deadline": "2024-07-10",
+        "prize_pool": "$75,000",
+        "format": "Team (5v5)",
+        "platform": "PC",
+        "rules": [
+          "Teams must consist of exactly five players.",
+          "Matches will be played in competitive mode.",
+          "Points will be awarded based on round wins and match results.",
+          "Use of cheats or hacks will result in immediate disqualification."
+        ],
+        "image": "https://i.ibb.co/ZLh4VNP/wp5821521-call-of-duty-hd-computer-wallpapers.jpg",
+        "contact_email": "info@example.com"
+      },
+      {
+        "id": "5",
+        "name": "Fantasy Quest",
+        "game": "World of Warcraft",
+        "start_date": "2024-08-10",
+        "end_date": "2024-08-12",
+        "registration_deadline": "2024-08-05",
+        "prize_pool": "$60,000",
+        "format": "Guilds",
+        "platform": "PC",
+        "rules": [
+          "Guilds must have a minimum of 10 members to participate.",
+          "Competitions will take place in dungeons and raids.",
+          "Points will be awarded based on dungeon completion time and raid progress.",
+          "Exploiting game bugs or glitches will result in disqualification."
+        ],
+        "image": "https://i.ibb.co/0CdrLL7/wp5547321-cod-pc-wallpapers.jpg",
+        "contact_email": "info@example.com"
+      },
+      {
+        "id": "6",
+        "name": "Virtual Tennis Championship",
+        "game": "Top Spin 5",
+        "start_date": "2024-09-20",
+        "end_date": "2024-09-22",
+        "registration_deadline": "2024-09-15",
+        "prize_pool": "$40,000",
+        "format": "Singles",
+        "platform": "PlayStation, Xbox",
+        "rules": [
+          "Players must compete individually.",
+          "Matches will be played in a best-of-three sets format.",
+          "Points will be awarded based on match results.",
+          "Unsportsmanlike conduct will result in penalties."
+        ],
+        "image": "https://i.ibb.co/bK0ysGb/wp4988858-call-of-duty-4k-wallpapers.jpg",
+        "contact_email": "info@example.com"
+      }
+    ],
+    
+    "upcoming": [
+      {
+        "key": "d7c2b41a-eb2d-4fd0-b3ee-54f9c94bf034",
+        "name": "Cyberpunk 2077",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "release_date": "2024-05-01",
+        "developer": "CD Projekt Red",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "description": "Cyberpunk 2077 is an upcoming open-world action-adventure game set in the dystopian Night City, developed by CD Projekt Red."
+      },
+      {
+        "key": "f8ac26e4-9570-4f9f-a682-890546789f0a",
+        "name": "Elden Ring",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "release_date": "2024-06-15",
+        "developer": "FromSoftware",
+        "platforms": ["PC", "Xbox", "PlayStation"],
+        "description": "Elden Ring is an upcoming action role-playing game developed by FromSoftware and published by Bandai Namco Entertainment."
+      },
+      {
+        "key": "a51a14bd-aa50-4e7a-a6e4-50d23ac2282c",
+        "name": "Starfield",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "release_date": "2024-08-20",
+        "developer": "Bethesda Gaming",
+        "platforms": ["PC"," Xbox"],
+        "description": "Starfield is an upcoming role-playing game developed by Bethesda Game Studios set in space."
+      },
+      {
+        "key": "c4d70335-fdb8-43f6-a92d-4cc8a5b79125",
+        "name": "God of War: Ragnarok",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "release_date": "2024-10-10",
+        "developer": "Santa Monica Studio",
+        "platforms": ["PlayStation"],
+        "description": "God of War: Ragnarok is an upcoming action-adventure game developed by Santa Monica Studio, a sequel to God of War (2018)."
+      },
+      {
+        "key": "ebbb33fe-7693-42b2-8c3b-8ff4fdcd99bf",
+        "name": "Breath of the Wild 2",
+        "image": "https://i.ibb.co/NrS4zrj/wp3741264-black-ops-4-hd-wallpapers.jpg",
+        "release_date": "2024-11-25",
+        "developer": "Nintendo EPD",
+        "platforms": ["Nintendo Switch"],
+        "description": "The Legend of Zelda: Breath of the Wild 2 is an upcoming action-adventure game developed and published by Nintendo for the Nintendo Switch."
+      }
+     ]
+    
+  }
+  

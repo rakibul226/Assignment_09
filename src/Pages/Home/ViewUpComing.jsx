@@ -1,6 +1,7 @@
 
 
 const ViewUpComing = ({game}) => {
+    console.log(game);
     const {name, image, release_date, developer,platforms} = game;
 
     return (

@@ -1,5 +1,6 @@
 import { useLoaderData } from "react-router-dom"; 
 import Games from "./Games";
+import Navbar from "../Home/Navbar/Navbar";
 
 const Upcoming = () => {
 
@@ -10,6 +11,7 @@ const Upcoming = () => {
 
   return(
     <div>
+      <Navbar></Navbar>
       {/* {games.map((game)=>(
         <Games game={game} ></Games>
       ))} */}

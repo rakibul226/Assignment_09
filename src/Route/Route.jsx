@@ -15,8 +15,7 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/",
         element: <HomePage></HomePage>,
-        loader: ()=>fetch("upcoming.json")
-        // loader: ()=>fetch("/upcoming.json")
+        loader: ()=>fetch("battlezone.json"),
       },
       {
         path: "/upcoming",
