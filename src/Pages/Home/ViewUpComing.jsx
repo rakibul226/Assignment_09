@@ -12,7 +12,7 @@ const ViewUpComing = ({game}) => {
             </div>
             <div className="flex-1 text-start  pl-5 items-center flex justify-center">
                     <div className="text-center">
-                        <h1 className="text-6xl pb-9 text-gray-300 font-bold">{name}</h1>
+                        <h1 className="text-6xl pb-9 text-gray-400 font-bold">{name}</h1>
                         <p className="text-3xl font-light"> {release_date}  </p>
                     </div>
             </div>

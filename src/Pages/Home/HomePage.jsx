@@ -57,7 +57,7 @@ const HomePage = () => {
       <Banner />
 
       <div className="mx-10 max-w-8xl sm:px-6 lg:px-8 mt-9 mb-20  text-center">
-        <h1 className="text-6xl mb-8">Games</h1>
+        <h1 className="text-6xl mb-8 font-serif">Games</h1>
           <Slider {...games}>
             {upcoming.games?.map((game) => (
               <ViewOurGames game={game} key={game.key} />
@@ -66,7 +66,7 @@ const HomePage = () => {
       </div>
 
       <section className="bg-gray-950 py-10">
-        <div className="text-6xl text-center"><h1>Tournament</h1></div>
+        <div className="text-6xl text-center font-serif"><h1>Tournament</h1></div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:px-60 lg2:px-80 gap-5">
           {upcoming.tournament?.map((games) => (
                   <ViewTournament games={games} key={games.id} />
@@ -75,7 +75,7 @@ const HomePage = () => {
       </section>
 
       <div className="mx-16 max-w-8xl sm:px-6 lg:px-8 pt-7 text-center ">
-        <h1 className="text-6xl mb-8">Upcoming Games...</h1>
+        <h1 className="text-6xl mb-8 font-serif">Upcoming Games...</h1>
           <Slider {...upcoming_field}>
             {upcoming.upcoming?.map((game) => (
               <ViewUpComing game={game} key={game.key} />

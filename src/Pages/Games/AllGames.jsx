@@ -8,14 +8,16 @@ import Games from "./Games";
 
     const Allgames = useLoaderData();
 
-    return <div>
-      <Navbar></Navbar>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-24 my-14">
-      {Allgames.games?.map((game) => (
-              <Games game={game} key={game.key} />
-            ))}
-      </div>
-    </div>;
+    return (
+            <div>
+                <Navbar></Navbar>
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mx-24 my-10">
+                {Allgames.games?.map((game) => (
+                        <Games game={game} key={game.key} />
+                      ))}
+                </div>
+            </div>
+    );
   };
 
 export default AllGames;

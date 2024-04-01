@@ -1,4 +1,4 @@
-/* 
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
 
 .oswald-<uniquifier> {
@@ -7,7 +7,7 @@
     font-weight: <weight>;
     font-style: normal;
   }
-   */
+  
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

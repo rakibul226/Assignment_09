@@ -1,7 +1,6 @@
 
 
 const Games = ({game}) => {
-         console.log(game);
          const {name, image, release_date, developer,platforms,description,price} = game;
 
     return (

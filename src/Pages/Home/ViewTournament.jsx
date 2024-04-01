@@ -11,7 +11,7 @@ const ViewTournament = ({games}) => {
           </figure>
           </div>
           <div className=" items-center text-center  px-14 justify-cent">
-            <h2 className="text-xl font-bold pt-2">{name}</h2>
+            <h2 className="text-xl font-bold pt-2 font-serif">{name}</h2>
             <p className="font-light">{game}</p>
           </div>
        </div>
