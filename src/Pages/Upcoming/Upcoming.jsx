@@ -1,5 +1,5 @@
 import { useLoaderData } from "react-router-dom"; 
-import Games from "./Games";
+
 import Navbar from "../Home/Navbar/Navbar";
 
 const Upcoming = () => {

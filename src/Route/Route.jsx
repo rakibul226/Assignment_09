@@ -3,9 +3,9 @@ import MainLayOut from "../Layout/MainLayOut";
 import HomePage from "../Pages/Home/HomePage";
 import Upcoming from "../Pages/Upcoming/Upcoming";
 import Tournaments from "../Pages/Tournament/Tournaments";
-import Games from "../Pages/Games/Games";
 import Login from "../Pages/Auth/Login";
 import Registration from "../Pages/Auth/Registration";
+import AllGames from "../Pages/Games/AllGames";
 
 const myCreatedRoute = createBrowserRouter([
   {
@@ -19,8 +19,7 @@ const myCreatedRoute = createBrowserRouter([
       },
       {
         path: "/upcoming",
-        element: <Upcoming></Upcoming>,
-        // loader: ()=>fetch("/upcoming.json")
+        element: <Upcoming></Upcoming>, 
       },
       {
         path: "/tournament",
@@ -28,7 +27,9 @@ const myCreatedRoute = createBrowserRouter([
       },
       {
         path: "/games",
-        element: <Games></Games>,
+        element: <AllGames></AllGames>,
+        loader: ()=>fetch("battlezone.json"),
+
       },
       {
         path: "/login",

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "PUBG: Battlegrounds",
-      "price": 29.99,
+      "price": 29,
       "category": "Shooter",
       "image": "https://i.ibb.co/KN7z0KR/wp7247306-playerunknowns-battlegrounds-2020-wallpapers.jpg",
       "developer": "PUBG Corporation",
@@ -14,7 +14,7 @@
     {
       "id": 2,
       "name": "Fortnite",
-      "price": 0,
+      "price": 75,
       "category": "Shooter",
       "image": "https://i.ibb.co/k0p6JDf/wp12229911-apex-legends-2023-gaming-wallpapers.jpg",
       "developer": "Epic Games",
@@ -25,7 +25,7 @@
     {
       "id": 3,
       "name": "Apex Legends",
-      "price": 0,
+      "price": 77,
       "category": "Shooter",
       "image": "https://i.ibb.co/Rg1wBKM/wp11245420-apex-legends-fade-wallpapers.jpg",
       "developer": "Respawn Entertainment",
@@ -36,9 +36,9 @@
     {
       "id": 4,
       "name": "Call of Duty: Warzone",
-      "price": 0,
+      "price": 89,
       "category": "Shooter",
-      "image": "https://i.ibb.co/dML60sD/wp12797391-call-of-duty-black-ops-3-4k-wallpapers.jpg",
+      "image": "https://i.ibb.co/c6hmNfM/wp13706486-call-of-duty-warzone-mobile-2024-wallpapers.jpg",
       "developer": "Infinity Ward",
       "platforms": ["PC", "Xbox", "PlayStation"],
       "release_date": "2020-03-10",
@@ -47,7 +47,7 @@
     {
       "id": 5,
       "name": "H1Z1",
-      "price": 0,
+      "price": 49,
       "category": "Shooter",
       "image": "https://i.ibb.co/G0FRdMn/wp5997965-pubg-gun-skins-wallpapers.jpg",
       "developer": "Daybreak Game Company",
@@ -58,7 +58,7 @@
     {
       "id": 6,
       "name": "Ring of Elysium",
-      "price": 0,
+      "price": 75,
       "category": "Shooter",
       "image": "https://i.ibb.co/hYkyY1C/wp12164131-elden-ring-hd-wallpapers.jpg",
       "developer": "Tencent Games",
@@ -69,7 +69,7 @@
     {
       "id": 7,
       "name": "Garena Free Fire",
-      "price": 0,
+      "price": 99,
       "category": "Shooter",
       "image": "https://i.ibb.co/ZLh4VNP/wp5821521-call-of-duty-hd-computer-wallpapers.jpg",
       "developer": "111 Dots Studio",
@@ -80,25 +80,15 @@
     {
       "id": 8,
       "name": "Rules of Survival",
-      "price": 0,
+      "price": 112,
       "category": "Shooter",
       "image": "https://i.ibb.co/TrpV0Gq/wp1965154-call-of-duty-advanced-warfare-wallpapers.jpg",
       "developer": "NetEase Games",
       "platforms": ["PC", "Android", "iOS"],
       "release_date": "2017-11-14",
       "description": "Rules of Survival is a free-to-play battle royale game developed by NetEase Games."
-    },
-    {
-      "id": 9,
-      "name": "Knives Out",
-      "price": 0,
-      "category": "Shooter",
-      "image": "https://i.ibb.co/2PHqSqF/wp3630316-player-unknowns-battlegrounds-wallpapers.jpg",
-      "developer": "NetEase Games",
-      "platforms": ["PC", "Android", "iOS"],
-      "release_date": "2017-11-23",
-      "description": "Knives Out is a free-to-play battle royale game developed by NetEase Games."
     }
+    
   ],
   
 

@@ -1,8 +1,7 @@
 
 
-const OurGames = ({game}) => {
-    console.log(game);
-    const {name, image, price, developer,platforms} = game;
+const ViewOurGames = ({game}) => {
+    const {name, image, price,platforms} = game;
 
     return (
         <div className="text-start">
@@ -21,4 +20,4 @@ const OurGames = ({game}) => {
     );
 };
 
-export default OurGames;
+export default ViewOurGames;

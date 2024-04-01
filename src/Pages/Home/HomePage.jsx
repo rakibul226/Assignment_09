@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import ViewTournament from "./ViewTournament";
-import OurGames from "./OurGames";
+import ViewOurGames from "./ViewOurGames";
 
 const HomePage = () => {
   const upcoming = useLoaderData();
@@ -60,7 +60,7 @@ const HomePage = () => {
         <h1 className="text-6xl mb-8">Games</h1>
           <Slider {...games}>
             {upcoming.games?.map((game) => (
-              <OurGames game={game} key={game.key} />
+              <ViewOurGames game={game} key={game.key} />
             ))}
           </Slider>
       </div>
