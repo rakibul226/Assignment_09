@@ -7,7 +7,7 @@ const OurGames = ({game}) => {
     return (
         <div className="text-start">
             <div className="card gap glass">
-                <figure><img src={image} className="h-72 w-full" alt="car!" /></figure>
+                <figure><img src={image} className="h-60 w-full" alt="car!" /></figure>
                 <div className="card-body h-52 justify-center flex flex-col">
                     <h2 className="card-title">{name}</h2>
                     <p>Platforms: {platforms}</p>
