@@ -2,8 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import MainLayOut from "../Layout/MainLayOut";
 import HomePage from "../Pages/Home/HomePage";
 import Tournaments from "../Pages/Tournament/Tournaments";
-import Login from "../Pages/Auth/Login";
-import Registration from "../Pages/Auth/Registration";
+import Login from "../Pages/Auth/Login/Login";
+import Registration from "../Pages/Auth/Registration/Registration";
 import AllGames from "../Pages/Games/AllGames";
 import AllUpcoming from "../Pages/Upcoming/AllUpcoming";
 

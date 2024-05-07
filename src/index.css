@@ -1,12 +1,16 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
-.oswald-<uniquifier> {
+.oswald-font {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400; 
     font-style: normal;
-  }
+}
+
+/* <p class="oswald-font">This text will have the Oswald font.</p> */
+
+
   
 @tailwind base;
 @tailwind components;

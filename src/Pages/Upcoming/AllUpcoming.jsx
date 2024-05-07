@@ -10,9 +10,9 @@ const AllUpcoming = () => {
     const allUpcoming = useLoaderData();
 
     return (
-        <div>
+        <div className="bg-gray-900">
             <Navbar></Navbar>
-            <div className="mx-14 py-10 gap-9 grid grid-cols-1">
+            <div className="mx-24 py-10 gap-9 grid grid-cols-1">
                 {allUpcoming.games?.map((game) => (
                         <Upcoming game={game} key={game.key} />
                       ))}
